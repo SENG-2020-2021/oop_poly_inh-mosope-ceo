@@ -98,6 +98,7 @@ class Main {
    	 	System.out.printf("The area of a rectangle with length: %.2f and breadth: %.2f is %.2f",l1,b2,rec.area());
    	 	System.out.println("");
    	 	System.out.printf("The perimeter of a rectangle with length: %.2f and breadth: %.2f is %.2f", l1,b2,rec.perimeter());
+      break;
 
 
      }
