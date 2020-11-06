@@ -6,12 +6,11 @@ class Main {
   public static void main(String[] args) {
     System.out.println("this program allows you to calculate the area and perimeter of any quadilatral listed. Enter P for parallelogram, T for Trapezoid, H for Rhombus, S for Square and R for rectangle NOTE: all inputs must be in capital Case");
   
-
-    Scanner sc = new Scanner(System.in);
-    //Declare a char to store the chosen quadilateral
-   char selection = sc.next().charAt(0);
-    //using a switch check what the user selected and use it to calculate the perimeter and area of the desired quadilateral 
     Scanner scan = new Scanner(System.in);
+    //Declare a char to store the chosen quadilateral
+   char selection = scan.next().charAt(0);
+    //using a switch check what the user selected and use it to calculate the perimeter and area of the desired quadilateral 
+   
   switch(selection){
 
     //this should be in the parallelogram case
